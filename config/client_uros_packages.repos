@@ -41,5 +41,5 @@ repositories:
     version: humble
   uros/tracetools:
     type: git
-    url: ssh://git@shenzhen.kaylordut.com:10022/microros/ros2_tracing.git/
+    url: ssh://git@shenzhen.kaylordut.com:10022/microros/ros2_tracing.git
     version: humble
