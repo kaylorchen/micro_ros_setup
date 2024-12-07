@@ -1,51 +1,49 @@
 repositories:
   eProsima/Micro-CDR:
     type: git
-    url: https://github.com/eProsima/Micro-CDR.git
+    url: ssh://git@shenzhen.kaylordut.com:10022/microros/Micro-CDR.git
     version: ros2
   eProsima/Micro-XRCE-DDS-Client:
     type: git
-    url: https://github.com/eProsima/Micro-XRCE-DDS-Client.git
+    url: ssh://git@shenzhen.kaylordut.com:10022/microros/Micro-XRCE-DDS-Client.git
     version: ros2
-
-# MicroROS
   uros/rcl:
     type: git
-    url: https://github.com/micro-ROS/rcl
+    url: ssh://git@shenzhen.kaylordut.com:10022/microros/rcl
     version: humble
   uros/rclc:
     type: git
-    url: https://github.com/ros2/rclc
+    url: ssh://git@shenzhen.kaylordut.com:10022/microros/rclc
     version: humble
   uros/micro_ros_utilities:
     type: git
-    url: https://github.com/micro-ROS/micro_ros_utilities
+    url: ssh://git@shenzhen.kaylordut.com:10022/microros/micro_ros_utilities
     version: humble
   uros/rcutils:
     type: git
-    url: https://github.com/micro-ROS/rcutils
+    url: ssh://git@shenzhen.kaylordut.com:10022/microros/rcutils
     version: humble
   uros/micro_ros_msgs:
     type: git
-    url: https://github.com/micro-ROS/micro_ros_msgs.git
+    url: ssh://git@shenzhen.kaylordut.com:10022/microros/micro_ros_msgs.git
     version: humble
   uros/rmw_microxrcedds:
     type: git
-    url: https://github.com/micro-ROS/rmw-microxrcedds.git
+    url: ssh://git@shenzhen.kaylordut.com:10022/microros/rmw-microxrcedds.git
     version: humble
   uros/rosidl_typesupport:
     type: git
-    url: https://github.com/micro-ROS/rosidl_typesupport.git
+    url: ssh://git@shenzhen.kaylordut.com:10022/microros/rosidl_typesupport.git
     version: humble
   uros/rosidl_typesupport_microxrcedds:
     type: git
-    url: https://github.com/micro-ROS/rosidl_typesupport_microxrcedds.git
+    url: ssh://git@shenzhen.kaylordut.com:10022/microros/rosidl_typesupport_microxrcedds.git
     version: humble
   uros/tracetools:
     type: git
-    url: https://gitlab.com/micro-ROS/ros_tracing/ros2_tracing.git/
+    url: ssh://git@shenzhen.kaylordut.com:10022/microros/ros2_tracing.git/
     version: humble
   uros/micro-ROS-demos:
     type: git
-    url: https://github.com/micro-ROS/micro-ROS-demos.git
+    url: ssh://git@shenzhen.kaylordut.com:10022/microros/micro-ROS-demos.git
     version: humble

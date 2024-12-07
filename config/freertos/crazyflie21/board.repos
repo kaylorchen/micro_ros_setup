@@ -1,11 +1,9 @@
 repositories:
   crazyflie_firmware:
     type: git
-    url: https://github.com/bitcraze/crazyflie-firmware
+    url: ssh://git@shenzhen.kaylordut.com:10022/microros/crazyflie-firmware
     version: 2020.06
-
   freertos_apps:
     type: git
-    url: https://github.com/micro-ROS/freertos_apps
+    url: ssh://git@shenzhen.kaylordut.com:10022/microros/freertos_apps
     version: humble
-

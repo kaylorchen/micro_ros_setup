@@ -1,5 +1,5 @@
 repositories:
   micro_ros_mbed:
     type: git
-    url: https://github.com/micro-ROS/micro_ros_mbed
+    url: ssh://git@shenzhen.kaylordut.com:10022/microros/micro_ros_mbed
     version: humble
