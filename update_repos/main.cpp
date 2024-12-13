@@ -2,8 +2,8 @@
 #include "yaml-cpp/yaml.h"
 #include "fstream"
 
-const std::string ros2_prefix = "http://192.168.4.11/amr/3rd-party/ros2/";
-const std::string microros_prefix = "http://192.168.4.11/amr/3rd-party/microros/";
+const std::string ros2_prefix = "http://192.168.4.11/pub/ros2/";
+const std::string microros_prefix = "http://192.168.4.11/pub/microros/";
 
 std::string getLastItem(const std::string& input) {
   // 找到最后一个 '/' 的位置
