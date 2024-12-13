@@ -50,5 +50,6 @@ install(
     scripts/yaml_filter.py
     scripts/clean_env.sh
     scripts/component
+    scripts/ros2-kaylor.repos
   DESTINATION lib/${PROJECT_NAME}
 )

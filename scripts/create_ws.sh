@@ -39,9 +39,11 @@ then
     echo "Repo-file ros2.repos already present, overwriting!"
 fi
 
+repos=$(dirname $0)/ros2-kaylor.repos
+cat $repos
 # ROS_DISTRO SPECIFIC
-curl -s https://raw.githubusercontent.com/ros2/ros2/humble/ros2.repos |\
-    ros2 run micro_ros_setup yaml_filter.py ${PACKAGES} > ros2.repos
+#curl -s https://raw.githubusercontent.com/ros2/ros2/humble/ros2.repos |\
+cat $repos | ros2 run micro_ros_setup yaml_filter.py ${PACKAGES} > ros2.repos
 vcs import --input ros2.repos --skip-existing
 vcs import --input $REPOS --skip-existing
 
