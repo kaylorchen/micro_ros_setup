@@ -24,6 +24,7 @@ pushd $FW_TARGETDIR/mcu_ws >/dev/null
 	rm -rf build install log
 	
    	colcon build \
+		--event-handlers=console_direct+ \
 		--merge-install \
 		--packages-ignore-regex=.*_cpp \
 		--metas $COLCON_META \
